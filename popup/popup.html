@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="timer" id="timer">00:00</div>
+    <div class="controls">
+        <button id="start-button">Start Focus Session</button>
+        <button id="stop-button" disabled>Stop</button>
+    </div>
+    <div class="blacklist-section">
+        <label for="blacklist">Blocked Domains</label>
+        <textarea id="blacklist" placeholder="youtube.com1&#10;facebook.com&#10;reddit.com"></textarea>
+        <button id="save-blacklist">Save Selection</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
