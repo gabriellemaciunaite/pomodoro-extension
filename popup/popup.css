@@ -1,0 +1,63 @@
+body {
+    width: 260px;
+    margin: 0;
+    padding: 16px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.timer {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.controls, .blacklist-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input, button, textarea {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 0px solid transparent;
+}
+
+textarea {
+    height: 60px;
+    resize: vertical;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #434c5a;
+    display: block;
+}
+
+.divider {
+    margin: 10px 0;
+    border: none;
+    border-top: 2px solid #e2e8f0;
+}
