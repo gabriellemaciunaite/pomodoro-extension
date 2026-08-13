@@ -68,7 +68,6 @@ saveButton.addEventListener('click', () => {
     const domains = val.split('\n').map(d => d.trim().toLowerCase()).filter(d => d.length > 0);
     chrome.storage.local.set({ blacklist: domains }, () => {
         showStatus('Successfully saved', 'success');
-        clearInterval(timerInterval);
         chrome.storage.local.get(['isRunning'], (data) => {
             if (data.isRunning) chrome.runtime.sendMessage({ action: 'START_BLOCK' });
         });
