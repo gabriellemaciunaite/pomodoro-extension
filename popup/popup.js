@@ -34,7 +34,7 @@ function adjustTimer(isRunning, targetTime) {
     } else {
         setRunningState(false);
         clearInterval(timerInterval);
-        timer.textContent = '01:00';
+        timer.textContent = '25:00';
     }
 }
 

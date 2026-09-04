@@ -2,7 +2,7 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === 'START_TIMER') {
       beginBlock();
-      const targetTime = Date.now() + 1 * 60 * 1000;
+      const targetTime = Date.now() + 25 * 60 * 1000;
       chrome.storage.local.set({ isRunning: true, targetTime: targetTime });
       chrome.alarms.create('pomodoroAlarm', { delayInMinutes: 1 });
     } else if (message.action === 'STOP_TIMER') {
