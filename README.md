@@ -1,6 +1,6 @@
 ## Pomodoro Timer & Domain Blocker Extension
 
-A lightweight Manifest V3 Google Chrome extension designed to aid students/workers by allowing the user to start a 25-minute Pomodoro timer and restricting user-defined websites when active.
+A lightweight Manifest V3 Google Chrome extension designed to aid students/workers by allowing the user to start a 25-minute Pomodoro timer and restricting user-defined websites when active. The **live demo** of the extension can be accessed from the Chrome Web Store [here](https://chromewebstore.google.com/detail/mmidhpkjfbgfodgdeohakkfodimmggmh).
 
 ---
 
